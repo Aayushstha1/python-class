@@ -27,11 +27,12 @@
 # a=  int (input ("Input here"))
 # print(type(a))
  
-b = 100
-c = 4
-print(b // c) 
+# b = 100
+# c = 4
+# print(b // c) 
 
 
-a = int(input("Enter a Amount: "))
-b= 4
-print (a // b)
+# a = int(input("Enter a Amount: "))
+# b= 4
+# print (a // b)
+
