@@ -27,3 +27,12 @@ else:
         print("Grade: E")
     else:
         print("Grade: F")
+
+
+
+
+
+
+
+
+        # chowim /        half/full       veg? 130full half 80 .........

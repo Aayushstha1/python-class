@@ -31,23 +31,9 @@ c = int(input("Enter the C mark: "))
 d = int(input("Enter the D mark: "))
 e = int(input("Enter the E mark: "))
 
-# if not all(0 <= mark <= 100 for mark in [a, b, c, d, e]):
-#     print("Please enter valid marks between 0 and 100 for all subjects.")
 
-# a = int(input("Enter a Mark: "))
-# if a <=100 and a >=0 :
-#  b = int(input("Enter b Mark: "))
-#  elif b <=100 and b>=0:
-#   c = int(input("Enter c Mark: "))
-# if c <=100 and c>=0:
 
-# d = int(input("Enter d Mark: "))
-# if d <=100 and d>=0:
-
-# e = int(input("Enter e Mark: "))
-# if e <=100 and e>=0:
-# if (0>=a<=100 and 0>=b<=100 and 0>=c<=100 and 0>=d<=100 and 0>=e<=100):
-if(0>=(a and b and c and d and e)<=100):
+if (0 <= a <= 100) and (0 <= b <= 100) and (0 <= c <= 100) and (0 <= d <= 100) and (0 <= e <= 100):
     total = a + b + c + d + e
     avg = total / 5
     percentage = (total / 500) * 100
@@ -69,7 +55,7 @@ else:
 
 
 
-# # 
+
 
 
 # name = input("Enter a Name: ")
@@ -97,7 +83,7 @@ else:
 #             print ("Snake Bite u ")
 #         elif choose =="3":
 #             print ("u got the tressure ")
-            
+
 
 
 
