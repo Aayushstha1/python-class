@@ -33,7 +33,7 @@ e = int(input("Enter the E mark: "))
 
 
 
-if (0 <= a <= 100) and (0 <= b <= 100) and (0 <= c <= 100) and (0 <= d <= 100) and (0 <= e <= 100):
+if(0<=(a and b and c and d and e)<=100):
     total = a + b + c + d + e
     avg = total / 5
     percentage = (total / 500) * 100
@@ -42,7 +42,7 @@ if (0 <= a <= 100) and (0 <= b <= 100) and (0 <= c <= 100) and (0 <= d <= 100) a
         print("Grade: A")
     elif percentage >= 80:
         print("Grade: B")
-    elif percentage >= 70:
+    elif percentage >= 70: 
         print("Grade: C")
     elif percentage >= 60:
         print("Grade: D")
