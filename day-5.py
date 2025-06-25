@@ -22,7 +22,15 @@
 #    if ab=="Aayush" or ab=="aryan":
 #      print(ab)
 
-a=["Aayush","binayak", "aryan"]
-for ab in a: 
-    # if ab== "Aayush":
-        print( f"Hello {ab}")
+# a=["Aayush","binayak", "aryan"]
+# for ab in a: 
+#     # if ab== "Aayush":
+#         print( f"Hello {ab}")
+
+#  a=["2","3" ,"7","10","29"]
+# #  for ab in a:
+#   if a/2==0:
+   
+#    print(f"Even number {ab}")
+#   else:
+#    print(f"Odd number{ab}")
