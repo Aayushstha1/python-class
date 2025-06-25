@@ -55,10 +55,10 @@ if choice == "chowmin":
         price = half
     else:
         print("Invalid order")
-    if order == "non-veg":
+    if order == "non-veg": 
         price += 50
-        print("Please wait, your order is being prepared...")
-        print("You ordered " + size + " " + order + " chowmin. Price: Rs." + str(price))
+    print("Please wait, your order is being prepared...")
+    print("You ordered " + size + " " + order + " chowmin. Price: Rs." + str(price))
 
 elif choice == "momo":
     size = input("choose size(full/half): ")
@@ -72,6 +72,6 @@ elif choice == "momo":
         print("Invalid order")
     if order == "non-veg":
         price += 50
-        print("Please wait, your order is being prepared...")
-        print("You ordered " + size + " " + order + " momo. Price: Rs." + str(price))
+    print("Please wait, your order is being prepared...")
+    print("You ordered " + size + " " + order + " momo. Price: Rs." + str(price))
 
