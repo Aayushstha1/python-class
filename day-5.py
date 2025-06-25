@@ -17,8 +17,12 @@
 # for i in range(1,10):
 #     print(i*mul)
 
-a=["Aayush","binayak", "aryan"]
-for ab in a:
-   if ab=="Aayush":
-     print(ab)
+# a=["Aayush","binayak", "aryan"]
+# for ab in a:
+#    if ab=="Aayush" or ab=="aryan":
+#      print(ab)
 
+a=["Aayush","binayak", "aryan"]
+for ab in a: 
+    # if ab== "Aayush":
+        print( f"Hello {ab}")
