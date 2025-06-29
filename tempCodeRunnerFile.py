@@ -1,1 +1,1 @@
-list1[::1]="gita","Rita","Manita" 
+print(dict.items())

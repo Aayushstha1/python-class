@@ -42,3 +42,19 @@
 
 
 # dict-->{}
+dict={
+     "name":"Aayush",
+     "age":20
+}
+# print(type(dict))
+# print(dict.values())
+# print(dict.keys())
+# print(dict["name"])
+dict ["gender"]="male"
+# dict.popitem()  last item remove
+# dict.pop("age")   delete the key
+# del(dict["age"])
+# dict.clear() clear the dict
+dict1=dict.copy()
+print(dict1)
+
