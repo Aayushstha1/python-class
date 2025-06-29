@@ -1,1 +1,1 @@
-print("Menu: Chowmin or Momo")
+list1[::1]="gita","Rita","Manita" 

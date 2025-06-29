@@ -20,12 +20,19 @@
 # result=eval(a)
 # print(result)
 
-list1=["aayush","hari", "sam",]
+a=["aayush","hari", "sam",]
 # list1.insert(4,"Ram")
-list1[::1]="gita","Rita","Manita" 
+# list1[::1]="gita","Rita","Manita" 
 
 # list1.append("Ram")
-print(list1)
+# list1.pop()   delete from the end
+# del(list1[1])  give the index
+# list1.remove("sam") 
+# print(list1)
+
+for ab in a:
+    if ab == "aayush":
+        print(ab)
 
 
 
