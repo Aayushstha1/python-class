@@ -13,9 +13,9 @@
 # for i in range(1,30,3):
 #     print(i)
 
-# mul=int(input("Enter the multiple u need:"))
-# for i in range(1,10):
-#     print(i*mul)
+mul=int(input("Enter the multiple u need:"))
+for i in range(1,10):
+    print(i*mul)
 
 # a=["Aayush","binayak", "aryan"]
 # for ab in a:
