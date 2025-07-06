@@ -8,11 +8,53 @@
 
 # hello( 16 , "hello")
 
-def hello(hi):
-    hi= int(input("Enter the number"))
-    if hi%2==0:
-        print ("Even")
-    else :
-        print("odd")
-hello("hi")
+# def hello(hi):
+#     hi= int(input("Enter the number"))
+#     if hi%2==0:
+#         print ("Even")
+#     else :
+#         print("odd")
+# hello("hi")
  
+
+
+# a = int(input("Enter the number"))
+
+# def hello(a):
+#     if a%2==0:
+#         print("Even")
+#     else: 
+#         print("odd")
+# hello(a)
+# check the number is paraladrom
+
+# a = int(input("Enter the number"))
+# # def hello(a):
+# b= a.reverse()
+# def hello(a):
+#     if( a==b):
+#         print("yes it is changed")
+#     else:
+#         print("it's not ")
+# hello(a)
+
+
+# a = str(input("enter the Number"))
+# b= a[::-1]
+# print(b)
+# def hello (a):
+#     if a == b:
+#         print("yes it is changed")
+#     else:
+#         print("it's not")
+# hello(a)
+
+
+
+def hello(*name):
+    print(name)
+
+hello("aayush","binayak","aryan")
+
+
+    
