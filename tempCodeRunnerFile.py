@@ -1,1 +1,1 @@
-print(dict.items())
+            # print(f"My name is {self.name} and age is {self.age}")

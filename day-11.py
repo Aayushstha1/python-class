@@ -1,9 +1,17 @@
-class hello:
+# class hello:
     # name = "Aayush"
     # h = hello()  
 # print(h.name)
-    def __init__(self,name):
+class hello:
+    def __init__(self,name, age):
         self.name=name
-h=hello()
-print (h.name)
+        self.age=age
+        
+        
+    def disc(self):
+            print(f"My name is {self.name} and age is {self.age}")
+
+Aayush=hello("Aayush",16)
+Aayush.disc()
+
 
