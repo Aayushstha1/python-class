@@ -51,10 +51,20 @@
 
 
 
-def hello(*name):
-    print(name)
+# def hello(*name):
+#     print(name[1])
 
-hello("aayush","binayak","aryan")
+# hello("aayush","binayak","aryan")
+
+# def hello(**kwargs):
+#      print(kwargs["b"])
+
+# hello(a="Aayush", b="Binayak", c="Aryan")
+
+
+a = int (input("Enter the number"))
+def hello(a)
+    
 
 
     
