@@ -1,1 +1,2 @@
-            # print(f"My name is {self.name} and age is {self.age}")
+Aayush=hello("Aayush",16)
+Aayush.disc()
