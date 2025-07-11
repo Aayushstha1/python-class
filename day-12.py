@@ -29,5 +29,4 @@ s=son ("Aayush", 22,"Ktm")
 print(s.age)
 print(s.name)
 print(s.Address)
-        
-        
+print(f"My name is {s.name}, I am {s.age} years old and I live in {s.Address}")
